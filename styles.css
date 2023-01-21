@@ -1,0 +1,52 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    box-shadow: -20px -20px,20px 20px 0px rgb(255, 237, 163);
+}
+
+img:hover {
+    border: 5px solid blanchedalmond;
+}
+
+h1, h4, .title {
+    color: rgb(27, 62, 27);
+    text-align: center;
+    font-weight:bold;
+}
+
+ul.menu {
+    text-align: center;
+    list-style-position: inside;
+    padding-top: 2rem;
+}
+
+li {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+li:hover {
+    background-color: rgb(255, 237, 163);
+}
+
+a:visited {
+    color: chocolate;
+}
+
+a:link {
+    color:rgb(27, 62, 27);
+}
+
+
+
